@@ -1,0 +1,48 @@
+/*took me longer then i'll admit, just change the homework guide lines into one massive note /*
+/*For the body properties
+background-color - set a background color you like
+color - set the text color you like
+For the nav properties
+height - set to 6000px
+width - set to 200px
+float - set to left
+padding - set to 5px
+line-height - set to 30px
+For the footer properties
+text-align - set to center
+margin-right - set to 200px
+For the #memeImage properties
+margin-right - set to 200px
+For the header properties
+text-align - set to center
+Link the main.css page to the index.html and boards.html pages between the opening and closing head tags in the index.html and boards pages, like so:
+<link rel="stylesheet" href="main.css"> */
+/* please delete all the things Mr. Hamilton is grading you on before you send this in. */
+/*it won't run yet, i don't think i'm using the right format for  the css */
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 400;font-size: larger; color:antiquewhite; margin: left 50px;
+}
+body {background-color: rgb(55, 124, 147);
+}
+p {font-family: 'Times New Roman', Times, serif;color:burlywood; font-size: larger;
+}
+header {font-style: italic; color:burlywood; font-size: larger;
+}
+img { margin:right 200px; 
+}
+
+/* I read some where on W3schools about putting togther multiple
+ elements so I can style them all at once. */
+h1, h1, h2, h3, h4 {
+    color:aliceblue; font-size:larger; font-weight: 500; line-height:30px; text-align:center; 
+
+}
+/* i need to look more into the nav bar and how this works. here's hoping it works first try */
+nav { 
+    height:600px; width: 200px; float:left; padding:5px; 
+    background-color:darkgreen;border: 2px solid blueviolet;
+}
+footer, header { text-align: center;
+
+}
